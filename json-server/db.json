@@ -1,0 +1,27 @@
+{
+  "posts": [
+    { "id": 1, "title": "post1 title", "author": {"id": 1, "name":"gerardo", "age":35, "birthday":"12/01/1982"}, "likes":10 },
+    { "id": 1, "title": "post2 title", "author": {"id": 2, "name":"lacra", "age":43, "birthday":"12/01/1982"}, "likes":5 },
+    { "id": 1, "title": "post3 title", "author": {"id": 1, "name":"gerardo", "age":35, "birthday":"12/01/1982"}, "likes":15 }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "users":[
+    { "id": 1, "name":"gerardo", "password":"gera1", "age":35,  "birthday":"12/01/1982", "image":"ger.jpg", "friends":[
+        2,3
+    ] },
+    { "id": 2, "name":"lacra", "password":"lacra1", "age": 43, "birthday":"12/01/1982", "image":"default.png","friends":[
+      1,4
+    ] },
+    { "id": 3, "name":"juan", "password":"juan1", "age": 22,  "birthday":"12/01/1982", "image":"default.png","friends":[
+      1
+    ] },
+    { "id": 4, "name":"rosa", "password":"lara1", "age": 18,  "birthday":"12/01/1982", "image":"default.png","friends":[
+      2
+    ] },
+    { "id": 5, "name":"tom", "password":"tom1", "age": 60,  "birthday":"12/01/1982", "image":"default.png","friends":[
+      
+    ] }
+  ]
+}

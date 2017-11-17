@@ -1,0 +1,65 @@
+.profile-container{    
+        margin-left: 35%;
+        margin-top:20px;
+        color: black;
+}
+
+.name{
+    color:#4267b2;
+    font-weight: bold;
+}
+
+.friend{
+    padding: 5px;
+    width: 200px;
+    height: auto;
+    border: 1px solid grey;
+    margin:5px;
+    cursor: pointer;
+    }
+
+    .small-photo{
+        width: 100px;
+    }
+
+    .all-friends{
+        width:600px;
+    }
+    .suggested-friends-container{
+        width:48%;
+        float:left;
+    }
+    .friends-container{
+        width:48%;
+        float: left;
+    }
+    .add-friend{
+        float: right;
+        position: relative;
+        top: -66px;
+    }
+
+    .user-details-container{
+        width: 493px;
+        padding: 5px;
+        height: 210px;
+        border: 1px solid grey;
+    }
+
+    .user-details{
+        width:50%;
+        float: left;
+        height: 200px;
+    }
+
+    .photo{
+        width:46%;
+        float: left;
+    }
+
+    .friend-title{
+        position: relative;
+        padding: 12px 6px;
+        color: grey;
+        font-size: 15px;
+    }

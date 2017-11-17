@@ -1,0 +1,9 @@
+<div class="menu">
+    <nav>
+        <a routerLink="/home" routerLinkActive="active"><span class="option">News</span></a>
+        <a routerLink="/home/profile/{{user.id}}" routerLinkActive="active"><span class="option">|</span><span class="option">My Profile</span></a>
+    </nav>
+    <div class="welcome">Welcome <span>{{user.name}}</span>!</div>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,54 @@
+<div class="profile-container">
+    
+      <div class="user-details-container">
+          <div class="photo">
+              <img src="/assets/images/{{user.image}}" profile-photo>
+          </div>
+           <div class="user-details">
+              <div>
+                  Name: {{user.name | capitalLetter}}
+                 </div>
+                 <div>
+                  Age: {{user.age}}
+                 </div>
+                 <div>
+                  Birthday: {{user.birthday}}
+                 </div>
+           </div>
+      </div>
+      <div class="all-friends">
+          <div class="friends-container">
+              <div class="friend-title">Friends:</div>
+              <div *ngFor="let friend of friends; let i = index" class="friend" (click)="onSelectFriend(friend)">
+                  <div class="small-photo">
+                      <img src="/assets/images/{{friend.image}}" small-photo>
+                  </div>
+                  <div>
+                      <span class="name">
+                          {{friend.name | capitalLetter}}
+                        </span>
+                  </div>          
+              </div>
+            </div>
+            <div class="suggested-friends-container" *ngIf="loggedUser.id === user.id">
+                <div class="friend-title">Suggested Friends:</div>
+                <div *ngFor="let friend of suggestedFriends; let i = index" class="friend">
+                    <div class="small-photo">
+                        <img src="/assets/images/{{friend.image}}" small-photo>
+                    </div>
+                    <div>
+                        <span class="name">
+                            {{friend.name |capitalLetter}}
+                          </span>
+                    </div>
+                    <div>
+                      <button (click)="addFriend(friend)" class="add-friend">Add as friend</button>
+                    </div>
+                </div>
+              </div>
+      </div>
+      
+
+    
+</div>
+

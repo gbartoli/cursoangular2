@@ -1,0 +1,25 @@
+.menu{
+    background-color: #4267b2;
+    color: white;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.option{
+    color:white;
+    font-weight: bold;
+    width:100px;
+    margin-left: 10px;
+    cursor: pointer;
+    top: 12px;
+    position: relative;
+}
+
+.welcome{
+    float: right;
+    margin-right: 30px;
+    font-size: 17px;
+    top: -12px;
+    position: relative;
+}

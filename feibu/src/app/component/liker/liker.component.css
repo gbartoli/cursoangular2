@@ -1,0 +1,12 @@
+.btn-like img{
+    width: 20px;
+    height: 20px;
+    color: #4267b2; 
+    cursor: pointer;
+}
+
+.like-counter{
+    color: #4267b2;
+    top: 2px;
+    position: relative;
+}

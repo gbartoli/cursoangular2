@@ -1,0 +1,35 @@
+.post-container{
+    margin-left: 35%;
+    margin-top:20px;
+   
+}
+.post{
+    padding: 5px;
+    width: 400px;
+    height: auto;
+    border: 1px solid grey;
+    margin:5px;
+}
+    .author{
+        color:#4267b2;
+        font-weight: bold;
+        cursor: pointer;
+    }
+.post-input{
+    width: 400px;
+    height: 100px;
+    margin:5px;
+    position: relative;
+    float: left;
+}
+.post-input-container{
+    width:400px;
+    height: 140px;
+}
+
+.post-input-container button{
+    float: right;
+}
+.content{
+    padding: 5px 0px;
+}
